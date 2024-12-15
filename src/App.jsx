@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import ArchLogo from '/ArchivistLogoEdited-.png'
-import TaskLists from './components/TaskLists'
-import AddTask from './components/AddTask'
+import TaskLists from './component/TaskLists'
+import AddTask from './component/AddTask'
 function App() {
   const [count, setCount] = useState(0)
 
